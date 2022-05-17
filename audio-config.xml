@@ -25,14 +25,14 @@
 	<Chain>
 		<Chain>
 			<mixer transitionTime="1000">
-				<ObjectBasedAudio positionX="$tuta1_x" positionZ="$tuta1_z" start="keydown:s" stop="keyup:s" src="audio/Tuta1.wav"></ObjectBasedAudio>
-				<ObjectBasedAudio positionX="$tuta2_x" positionZ="$tuta2_z" start="keydown:d" stop="keyup:d" src="audio/Tuta2.wav"></ObjectBasedAudio>
-				<ObjectBasedAudio positionX="$tuta3_x" positionZ="$tuta3_z" start="keydown:f" stop="keyup:f" src="audio/Tuta3.wav"></ObjectBasedAudio>
-				<ObjectBasedAudio positionX="$tuta4_x" positionZ="$tuta4_z" start="keydown:g" stop="keyup:g" src="audio/Tuta4.wav"></ObjectBasedAudio>
-				<ObjectBasedAudio positionX="$tuta5_x" positionZ="$tuta5_z" start="keydown:h" stop="keyup:h" src="audio/Tuta5.wav"></ObjectBasedAudio>	
-				<ObjectBasedAudio positionX="$tuta6_x" positionZ="$tuta6_z" start="keydown:j" stop="keyup:j" src="audio/Tuta6.wav"></ObjectBasedAudio>				
-				<ObjectBasedAudio positionX="$tuta7_x" positionZ="$tuta7_z" start="keydown:k" stop="keyup:k" src="audio/Tuta7.wav"></ObjectBasedAudio>
-				<ObjectBasedAudio positionX="$tuta8_x" positionZ="$tuta8_z" start="keydown:l" stop="keyup:l" src="audio/Tuta8.wav"></ObjectBasedAudio>			
+				<ObjectBasedAudio positionX="$tuta1_x" positionZ="$tuta1_z" start="keydown:s" stop="keyup:s" src="audio/Tuta 1.mp3"></ObjectBasedAudio>
+				<ObjectBasedAudio positionX="$tuta2_x" positionZ="$tuta2_z" start="keydown:d" stop="keyup:d" src="audio/Tuta 2.mp3"></ObjectBasedAudio>
+				<ObjectBasedAudio positionX="$tuta3_x" positionZ="$tuta3_z" start="keydown:f" stop="keyup:f" src="audio/Tuta 3.mp3"></ObjectBasedAudio>
+				<ObjectBasedAudio positionX="$tuta4_x" positionZ="$tuta4_z" start="keydown:g" stop="keyup:g" src="audio/Tuta 4.mp3"></ObjectBasedAudio>
+				<ObjectBasedAudio positionX="$tuta5_x" positionZ="$tuta5_z" start="keydown:h" stop="keyup:h" src="audio/Tuta 5.mp3"></ObjectBasedAudio>	
+				<ObjectBasedAudio positionX="$tuta6_x" positionZ="$tuta6_z" start="keydown:j" stop="keyup:j" src="audio/Tuta 6.mp3"></ObjectBasedAudio>				
+				<ObjectBasedAudio positionX="$tuta7_x" positionZ="$tuta7_z" start="keydown:k" stop="keyup:k" src="audio/Tuta 7.mp3"></ObjectBasedAudio>
+				<ObjectBasedAudio positionX="$tuta8_x" positionZ="$tuta8_z" start="keydown:l" stop="keyup:l" src="audio/Tuta 8.mp3"></ObjectBasedAudio>			
 			</mixer>
 		</Chain>
 
