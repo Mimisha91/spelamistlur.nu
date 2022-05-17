@@ -1,0 +1,123 @@
+<!doctype html>
+
+
+
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, user-scalable=no" />
+		<title>mistlur</title>
+		<script src="jquery.js"></script>
+		<script src="max.size.js"></script>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+
+	<body>
+		<div id="container" class="max-size">
+			
+
+			<img id="reverbav" src="img/fyrtorn.jpg" />
+			<img id="reverb" data-waxml-style="opacity=$rev1" src="img/fyrtornlyser.jpg" />
+			<a id="revBtnOFF" data-waxml-pointerdown-rev1="0">OFF</a>
+			<a id="revBtnON" data-waxml-pointerdown-rev1="1">ON</a>
+
+			
+			<a data-waxml-style="opacity=$keydown:s"><img id="tut1" src="img/tut.jpg" /></a>
+			<a data-waxml-style="opacity=$keydown:d"><img id="tut2" src="img/tut.jpg" /></a>
+			<a data-waxml-style="opacity=$keydown:f"><img id="tut3" src="img/tut.jpg" /></a>
+			<a data-waxml-style="opacity=$keydown:g"><img id="tut4" src="img/tut.jpg" /></a>
+			<a data-waxml-style="opacity=$keydown:h"><img id="tut5" src="img/tut.jpg" /></a>
+			<a data-waxml-style="opacity=$keydown:j"><img id="tut6" src="img/tut.jpg" /></a>
+			<a data-waxml-style="opacity=$keydown:k"><img id="tut7" src="img/tut.jpg" /></a>
+			<a data-waxml-style="opacity=$keydown:l"><img id="tut8" src="img/tut.jpg" /></a>
+		
+
+
+			<div id="instructions">
+				
+				<a class="clickArea" id="Tuta1" data-waxml-pointerdown-start="keydown:s" data-waxml-pointerup-stop="keyup:s"></a>
+				<a class="clickArea" id="Tuta2" data-waxml-pointerdown-start="keydown:d" data-waxml-pointerup-stop="keyup:d"></a>
+				<a class="clickArea" id="Tuta3" data-waxml-pointerdown-start="keydown:f" data-waxml-pointerup-stop="keyup:f"></a>
+				<a class="clickArea" id="Tuta4" data-waxml-pointerdown-start="keydown:g" data-waxml-pointerup-stop="keyup:g"></a>
+				<a class="clickArea" id="Tuta5" data-waxml-pointerdown-start="keydown:h" data-waxml-pointerup-stop="keyup:h"></a>
+				<a class="clickArea" id="Tuta6" data-waxml-pointerdown-start="keydown:j" data-waxml-pointerup-stop="keyup:j"></a>
+				<a class="clickArea" id="Tuta7" data-waxml-pointerdown-start="keydown:k" data-waxml-pointerup-stop="keyup:k"></a>
+				<a class="clickArea" id="Tuta8" data-waxml-pointerdown-start="keydown:l" data-waxml-pointerup-stop="keyup:l"></a>
+				
+			</div>
+
+
+			<waxml-xy-area type="circle" width="300px" height="300px">
+
+				<waxml-xy-handle
+					width="25px"
+					height="25px"
+					sources="x,y"
+					targets="tuta1_x, tuta1_z"
+					x="1"
+				>1</waxml-xy-handle>
+
+				<waxml-xy-handle
+				width="25px"
+				height="25px"
+				sources="x,y"
+				x="0.9"
+				targets="tuta2_x, tuta2_z"
+			>2</waxml-xy-handle>
+
+			<waxml-xy-handle
+			width="25px"
+			height="25px"
+			sources="x,y"
+			x="0.8"
+			targets="tuta3_x, tuta3_z"
+		>3</waxml-xy-handle>
+
+		<waxml-xy-handle
+			width="25px"
+			height="25px"
+			sources="x,y"
+			x="0.7"
+			targets="tuta4_x, tuta4_z"
+		>4</waxml-xy-handle>
+
+		<waxml-xy-handle
+			width="25px"
+			height="25px"
+			sources="x,y"
+			x="0.6"
+			targets="tuta5_x, tuta5_z"
+		>5</waxml-xy-handle>
+
+		<waxml-xy-handle
+		width="25px"
+		height="25px"
+		sources="x,y"
+		x="0.4"
+		targets="tuta6_x, tuta6_z"
+	>6</waxml-xy-handle>
+
+	<waxml-xy-handle
+	width="25px"
+	height="25px"
+	sources="x,y"
+	x="0.3"
+	targets="tuta7_x, tuta7_z"
+>7</waxml-xy-handle>
+
+<waxml-xy-handle
+width="25px"
+height="25px"
+sources="x,y"
+x="0.2"
+targets="tuta8_x, tuta8_z"
+>8</waxml-xy-handle>
+
+			</waxml-xy-area>
+
+			
+		</div>
+		<script src="WebAudioXML.js" data-source="audio-config.xml"></script>
+	</body>
+</html>

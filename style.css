@@ -1,0 +1,176 @@
+
+html, body {
+	height: 100%;
+	user-select: none;
+	-webkit-user-select: none;
+  background-color: rgb(0, 0, 0);
+}
+
+a {
+  color: rgb(229, 220, 220);
+  text-decoration: none;
+}
+
+#container {
+  background-color: rgb(0, 0, 0);
+  width: 1000px;
+  height: 750px;
+  background-image: url(img/mistlurnu.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#info {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 0.5em;
+  font-size: 0.8em;
+  font-family: sans-serif;
+  /* Hur ändra färg texten? */
+}
+
+#reverbav {
+  position:absolute;
+  right: 130px;
+  top: 117px;
+  width: 160px;
+  height: auto;
+}
+
+#reverb {
+  position:absolute;
+  right: 130px;
+  top: 117px;
+  width: 160px;
+  height: auto;
+}
+
+
+#revBtnON {
+  position:absolute;
+  right: 177px;
+  top: 300px;
+}
+
+#revBtnOFF {
+  position:absolute;
+  right: 225px;
+  top: 300px;
+}
+
+#tut1 {
+  position:absolute;
+  right: 752px;
+  top: 67px;
+  width: 82px;
+  height: auto;
+
+}
+
+#tut2 {
+  position:absolute;
+  right: 666px;
+  top: 142px;
+  width: 82px;
+  height: auto;
+
+}
+
+#tut3 {
+  position:absolute;
+  right: 582px;
+  top: 205px;
+  width: 82px;
+  height: auto;
+
+}
+
+#tut4 {
+  position:absolute;
+  right: 502px;
+  top: 263px;
+  width: 82px;
+  height: auto;
+
+}
+
+#tut5 {
+  position:absolute;
+  right: 417px;
+  top: 308px;
+  width: 82px;
+  height: auto;
+
+}
+
+#tut6 {
+  position:absolute;
+  right: 332px;
+  top: 355px;
+  width: 82px;
+  height: auto;
+
+}
+
+#tut7 {
+  position:absolute;
+  right: 252px;
+  top: 397px;
+  width: 82px;
+  height: auto;
+
+}
+
+#tut8 {
+  position:absolute;
+  right: 168px;
+  top: 430px;
+  width: 82px;
+  height: auto;
+
+}
+
+
+
+.clickArea {
+  top: 651px;
+  width: 40px;
+  height: 40px;
+  background-color: blue;
+  margin: 10px;
+  display: inline-block;
+  position: absolute;
+  opacity: 0;
+}
+
+
+#Tuta1 {
+  left: 174px;
+}
+#Tuta2 {
+  left: 260px;
+}
+#Tuta3 {
+  left: 346px;
+}
+#Tuta4 {
+  left: 428px;
+}
+#Tuta5 {
+  left: 511px;
+}
+#Tuta6 {
+  left: 596px;
+}
+#Tuta7 {
+  left: 679px;
+}
+#Tuta8 {
+  left: 762px;
+}
+
+
+waxml-xy-area {
+  position: absolute !important;
+  left: 470px;
+  top: 50px;
+}

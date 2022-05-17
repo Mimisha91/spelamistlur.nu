@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Audio version="1.0" timeUnit="ms" gain="-10dB">
+
+	<!-- <var name="key" mapin="s,d,f,g,h,j,k,l" mapout= </var> -->
+	<var name="rev1" default="0" />
+	<var name="tuta1_x" mapin="0,1" mapout="-10,10" default="1"/>
+	<var name="tuta1_z" mapin="0,1" mapout="-10,10" />
+	<var name="tuta2_x" mapin="0,1" mapout="-10,10" />
+	<var name="tuta2_z" mapin="0,1" mapout="-10,10" />
+	<var name="tuta3_x" mapin="0,1" mapout="-10,10" default="1"/>
+	<var name="tuta3_z" mapin="0,1" mapout="-10,10" />
+	<var name="tuta4_x" mapin="0,1" mapout="-10,10" />
+	<var name="tuta4_z" mapin="0,1" mapout="-10,10" />
+	<var name="tuta5_x" mapin="0,1" mapout="-10,10" default="1"/>
+	<var name="tuta5_z" mapin="0,1" mapout="-10,10" />
+	<var name="tuta6_x" mapin="0,1" mapout="-10,10" />
+	<var name="tuta6_z" mapin="0,1" mapout="-10,10" />
+	<var name="tuta7_x" mapin="0,1" mapout="-10,10" default="1"/>
+	<var name="tuta7_z" mapin="0,1" mapout="-10,10" />
+	<var name="tuta8_x" mapin="0,1" mapout="-10,10" />
+	<var name="tuta8_z" mapin="0,1" mapout="-10,10" />
+
+
+
+	<Chain>
+		<Chain>
+			<mixer transitionTime="1000">
+				<ObjectBasedAudio positionX="$tuta1_x" positionZ="$tuta1_z" start="keydown:s" stop="keyup:s" src="audio/Tuta1.wav"></ObjectBasedAudio>
+				<ObjectBasedAudio positionX="$tuta2_x" positionZ="$tuta2_z" start="keydown:d" stop="keyup:d" src="audio/Tuta2.wav"></ObjectBasedAudio>
+				<ObjectBasedAudio positionX="$tuta3_x" positionZ="$tuta3_z" start="keydown:f" stop="keyup:f" src="audio/Tuta3.wav"></ObjectBasedAudio>
+				<ObjectBasedAudio positionX="$tuta4_x" positionZ="$tuta4_z" start="keydown:g" stop="keyup:g" src="audio/Tuta4.wav"></ObjectBasedAudio>
+				<ObjectBasedAudio positionX="$tuta5_x" positionZ="$tuta5_z" start="keydown:h" stop="keyup:h" src="audio/Tuta5.wav"></ObjectBasedAudio>	
+				<ObjectBasedAudio positionX="$tuta6_x" positionZ="$tuta6_z" start="keydown:j" stop="keyup:j" src="audio/Tuta6.wav"></ObjectBasedAudio>				
+				<ObjectBasedAudio positionX="$tuta7_x" positionZ="$tuta7_z" start="keydown:k" stop="keyup:k" src="audio/Tuta7.wav"></ObjectBasedAudio>
+				<ObjectBasedAudio positionX="$tuta8_x" positionZ="$tuta8_z" start="keydown:l" stop="keyup:l" src="audio/Tuta8.wav"></ObjectBasedAudio>			
+			</mixer>
+		</Chain>
+
+		<Send outputbus="#bus1"/>
+	</Chain>
+
+	<Chain gain="$rev1" id="bus1">
+		<ConvolverNode src="audio/Hall.wav"></ConvolverNode>
+	</Chain>
+		
+
+</Audio>
